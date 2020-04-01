@@ -1,0 +1,20 @@
+{
+    "name": "costabrazuca/projex",
+    "description": "Simples esqueleto para projetos MVC",
+    "type": "projetct",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cesar Augusto",
+            "email": "cesaraug76@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MeuProjeto\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    }
+}
